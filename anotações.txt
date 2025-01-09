@@ -1,0 +1,13 @@
+# Verificar os horários das previsões 
+    - As previsões estão retotrnando apenas horarios noturnos
+# Remover a ScrollBar 
+    - Remover da tela principal
+# Responsividade
+    - Verificar a Responsividade para telas menores
+    - Esconder ou redimensionar
+        - Cards principais
+        - Fontes
+        - Icones 
+
+# Iniciar a aplicação
+        - Iniciar com alguma cidade e suas respectivas informações

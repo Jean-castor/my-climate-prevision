@@ -1,0 +1,48 @@
+.weather-five {
+    background-color: rgba(234, 230, 230, 0.296);
+    border-radius: 10px;
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+}
+
+.weather-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.weather-item {
+    text-align: center;
+    background-color: rgba(219, 209, 209, 0.501);
+    border-radius: 7px;
+    border-top: 4px solid rgb(171, 167, 167);
+    padding: 10px;
+}
+
+.get-day, .description-day {
+    text-transform: capitalize;
+}
+
+.temp-min-max {
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(10, 136, 94, 0.886);
+    border-radius: 8px;
+    padding: 0 3px 0 3px;
+}
+
+
+.get-day {
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .weather-list {
+        justify-content: center;
+    }
+}
